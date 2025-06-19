@@ -1,37 +1,11 @@
+# Ignorar dependencias de Composer
 /vendor/
-node_modules/
-npm-debug.log
-yarn-error.log
 
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
-
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
-
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
-
-storage/*.key
+# Ignorar archivos de configuración local
 .env
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
-
-/public/build
-/storage/pail
-.env.backup
-.env.production
-.phpactor.json
-auth.json
-
-# Configuración propia (Pendiente por evaluar.)
 
 # Ignorar archivos de caché y logs
+/storage/logs/
 /storage/framework/cache/
 /storage/framework/sessions/
 /storage/framework/views/
@@ -65,6 +39,7 @@ node_modules/
 .DS_Store
 Thumbs.db
 
+
 # Ignorar archivos de sistema
 .DS_Store
 Thumbs.db
@@ -86,6 +61,7 @@ Thumbs.db
 
 # Ignorar archivos de backups
 *.bak
+*.swp
 
 # Ignorar archivos de cobertura de PHPUnit
 /coverage/
